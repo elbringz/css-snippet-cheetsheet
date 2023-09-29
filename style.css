@@ -1,0 +1,47 @@
+* {
+    background-color: gray;
+    color: aqua;
+}
+
+header{
+    text-align: center;
+    background-color: gray;
+    color: aqua;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+#top-center {
+
+}
+
+.parent {
+   /* border: 1px solid black; */
+    text-align: center;
+}
+
+.child {
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.parent2 {
+    text-align: center;
+}
+
+.child2 {
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: middle;
+    
+}
